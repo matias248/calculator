@@ -1,0 +1,21 @@
+{
+  "name": "proyectopersonal",
+  "version": "1.0.0",
+  "main": "calculadora.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "https://www.linkedin.com/in/mat%C3%ADas-cabarcos-baulina-703250212",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "chai": "^4.3.4",
+    "mocha": "^9.0.3"
+  },
+  "devDependencies": {},
+  "description": ""
+}
