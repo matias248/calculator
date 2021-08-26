@@ -151,17 +151,6 @@ function addNumber(number){
         operacionActual.textContent+=number;
         numero+=""+number;   
 }
-function addParentesis(parentesis){
-    if(numero!=""){
-        listaDeNumeros.push(numero);
-        alert(listaDeNumeros);
-        numero="";
-        listaDeNumeros.push(parentesis);
-    }
-    
-    operacionActual.textContent+=parentesis;
-    inabilitarOperaciones();
-}
 
 
 function addPoint(){
@@ -181,4 +170,8 @@ function addSymbol(simbolo){
     }
     operacionActual.textContent+=simbolo;
     inabilitarOperaciones();
+    if(simbolo!="-"){
+        soustracion.disabled=false;
+        soustracion.style="cadetblue";
+    }
 }
